@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vibe Loyalty</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-md mx-auto bg-white p-6 rounded shadow">
+    <h1 class="text-2xl font-bold mb-4">Vibe Loyalty Tracker</h1>
+    <input id="phoneInput" type="text" placeholder="Enter phone number" class="w-full p-2 border rounded mb-4" />
+    <button onclick="logVisit()" class="bg-blue-600 text-white px-4 py-2 rounded">Log Visit</button>
+    <div id="output" class="mt-4 text-sm text-green-600"></div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
